@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/24 02:09:21 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/05 16:33:21 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/16 19:19:47 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,19 @@ int	ft_memcmp(const void *str1, const void *str2, size_t n)
 	}
 	return (0);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+
+// int	main(int argc, char **argv)
+// {
+// 	int	len;
+
+// 	if (argc == 3)
+// 	{
+// 		len = ft_strlen(argv[1]) + ft_strlen(argv[2]);
+// 		printf("%d", memcmp(argv[1], argv[2], len));
+// 		printf("%d", ft_memcmp(argv[1], argv[2], len));
+// 	}
+// 	return (0);
+// }
