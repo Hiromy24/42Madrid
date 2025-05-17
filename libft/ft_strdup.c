@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 23:24:59 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/16 15:49:18 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/17 04:08:03 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,15 @@ char	*ft_strdup(const char *s)
 	d_str = '\0';
 	return (ptr);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	char	cad[] = "hola mundo!";
+// 	char	*dup;
+
+// 	dup = ft_strdup(cad);
+// 	printf("%s", dup);
+// 	return (0);
+// }

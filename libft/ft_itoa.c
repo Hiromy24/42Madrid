@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/05 17:14:51 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/16 18:34:51 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/17 02:02:23 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static int	ft_num_len(int n)
 		len++;
 		n = -n;
 	}
-	while (n > 10)
+	while (n >= 10)
 	{
 		n /= 10;
 		len++;

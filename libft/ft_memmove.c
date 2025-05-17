@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 03:03:24 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/16 20:08:04 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/16 23:49:28 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,10 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 
 // int	main(void)
 // {
-// 	char buffer[] = "Hola mundo";
+// 	char cad[] = "Hola mundo";
 
-// 	printf("Antes de memmove: %s\n", buffer);
-// 	ft_memmove(buffer + 3, buffer, 5);
-// 	printf("Después de memmove: %s\n", buffer);
+// 	printf("%s\n", buffer);
+// 	ft_memmove(cad + 3, cad, 5);
+// 	printf("%s\n", buffer);
 // 	return (0);
 // }

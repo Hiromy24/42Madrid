@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/05 01:05:34 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/05 16:33:48 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/17 04:28:54 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,17 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	j_str[len_s1 + len_s2] = '\0';
 	return (j_str);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	char	cad[] = "hola ";
+// 	char	cad2[] = "mundo";
+// 	char	*join;
+
+// 	join = ft_strjoin(cad, cad2);
+// 	if (join)
+// 		printf("%s\n", join);
+// 	return (0);
+// }

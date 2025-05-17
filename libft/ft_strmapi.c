@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/05 18:24:47 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/06 02:31:13 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/17 13:32:53 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
 	if (!s || !f)
 		return (NULL);
-	str = malloc (ft_strlen(s) + 1);
+	str = (char *)malloc (ft_strlen(s) + 1);
 	if (!str)
 		return (NULL);
 	i = 0;
@@ -31,3 +31,26 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
+
+// #include <stdio.h>
+
+// char	to_up_ev(unsigned int i, char c)
+// {
+// 	if (i % 2 == 0 && c >= 'a' && c <= 'z')
+// 		return (c - 32);
+// 	return (c);
+// }
+
+// int	main(void)
+// {
+// 	const char	*cad = "hola mundo";
+// 	char		*res;
+
+// 	res = ft_strmapi(cad, to_up_ev);
+// 	if (res)
+// 	{
+// 		printf("%s\n%s", cad, res);
+// 		free(res);
+// 	}
+// 	return (0);
+// }

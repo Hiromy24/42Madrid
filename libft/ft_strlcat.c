@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 16:58:19 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/16 03:20:28 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/17 13:33:04 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,20 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	dest[dest_len + i] = '\0';
 	return (dest_len + src_len);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	char 		dest[10] = "Hi";
+// 	const char	*src = "ABC";
+// 	size_t 		size = sizeof(dest);
+// 	size_t 		total;
+
+// 	printf("Before:\"%s\"\n", dest);
+// 	total = ft_strlcat(dest, src, size);
+// 	printf("After:\"%s\"\n", dest);
+// 	printf("Returned: %zu\n", total);
+
+//     return (0);
+// }

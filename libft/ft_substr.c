@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 23:55:46 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/06 23:28:22 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/17 14:00:40 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,18 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	*d_str = '\0';
 	return (ptr);
 }
+
+// #include <stdio.h>
+
+// int	main(int argc, char **argv)
+// {
+// 	char	*res;
+
+// 	if (argc == 2)
+// 	{
+// 		res = ft_substr(argv[1], 3, 8);
+// 		printf("%s", res);
+// 		free(res);
+// 	}
+// 	return (0);
+// }

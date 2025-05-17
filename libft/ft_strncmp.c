@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/24 01:23:39 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/16 13:16:36 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/17 13:37:10 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,16 @@ int	ft_strncmp(const char *s1, const char *s2, size_t m)
 	}
 	return (0);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+
+// int	main(int argc, char **argv)
+// {
+// 	if (argc == 3)
+// 	{
+// 		printf("%d", strncmp(argv[1], argv[2], 8));
+// 		printf("%d", ft_strncmp(argv[1], argv[2], 8));
+// 	}
+// 	return (0);
+// }

@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/19 21:25:58 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/06 03:28:07 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/17 02:29:57 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,13 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s);
 	return (NULL);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	char	cad[] = "hola mundo";
+
+// 	printf("%s", ft_strchr(cad, 'm'));
+// 	return (0);
+// }

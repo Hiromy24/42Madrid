@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/05 19:34:53 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/06 23:28:06 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/17 04:14:30 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,21 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
+
+// #include <stdio.h>
+
+// void	shift_char(unsigned int idx, char *c)
+// {
+// 	*c = *c + 1;
+// }
+
+// int	main(void)
+// {
+// 	char str[] = "abcd";
+
+// 	printf("Before: %s\n", str);
+// 	ft_striteri(str, shift_char);
+// 	printf("After:  %s\n", str);
+
+// 	return (0);
+// }

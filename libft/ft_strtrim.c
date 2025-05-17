@@ -6,7 +6,7 @@
 /*   By: hillesca <hillesca@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/05 02:00:13 by hillesca          #+#    #+#             */
-/*   Updated: 2025/05/06 02:30:38 by hillesca         ###   ########.fr       */
+/*   Updated: 2025/05/17 13:54:45 by hillesca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,3 +45,21 @@ char	*ft_strtrim(char const *s1, char const *set)
 	str[len] = '\0';
 	return (str);
 }
+
+// #include <stdio.h>
+
+// int	main(int argc, char **argv)
+// {
+// 	char	*res;
+
+// 	if (argc == 3)
+// 	{
+// 		res = ft_strtrim(argv[1], argv[2]);
+// 		if (res)
+// 		{
+// 			printf("%s", res);
+// 			free(res);
+// 		}
+// 	}
+// 	return (0);
+// }
